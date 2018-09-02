@@ -1,0 +1,663 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p {
+    
+    font-size: 14px;
+}
+a {
+    color: mediumpurple;
+}
+
+/*============= Generic css ======*/
+
+.section-title{
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+.section-title h2{
+    position:relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;   
+}
+
+.section-title h2:after{
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: mediumpurple;
+    margin-left: -30px;
+}
+
+.section-title p{
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+/*============= Header ===========*/
+
+.header{
+    background-image: url("../images/header-bg.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+
+.header-overlay {
+    background-color: rgba(31,31,31, 0.75);
+}
+
+
+.logo {
+    padding-bottom: 50px;
+}
+
+.header-text h1{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 35px; 
+    text-transform: uppercase;
+}
+
+.header-text p{
+    color: white;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+.header-btns{
+    margin-top: 90px;
+    margin-bottom: 50px;
+    
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited{
+    background: transparent;
+    border-color: mediumpurple;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    border-radius: 3px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.btn-download:hover {
+    background-color: mediumpurple;
+    color: white;
+}
+
+.header-iphone img{
+    width: 100%;
+}
+
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited{
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 19px;
+    text-transform: uppercase;
+    background: transparent;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+.btn-tour:hover {
+    color: white;
+}
+
+/* ========= About us ========= */
+
+.choose-us-wrapper{
+    padding-top: 50px;
+}
+
+.about-iphone img{
+    margin-top: 8px;
+}
+
+
+.choose-us-title h2{
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    position: relative;
+}
+
+.choose-us-title h2:after{
+    content:"";
+    position: absolute;
+    bottom: -12px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+    background-color: mediumpurple;
+    
+}
+
+.choose-us-title p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.choose-us-item {
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}
+
+.choose-us-item div{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.choose-us-item div i{
+    font-size: 55px;
+    color: mediumpurple;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.choose-us-item h3{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.choose-us-item p{
+    color: #333;
+    font-size 12px;
+}
+
+/* ========= Testimonials ========= */
+
+.testimonials{
+    background-image: url(../images/testimonial-bg.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.testimonials-overlay{
+    background-color: rgba(31,31,31, .75);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.carousel-indicators{
+    bottom: -10px;
+}
+
+.carousel-inner .item img{
+    border: 2px solid mediumpurple;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.testimonial-caption{
+    padding-bottom: 70px;
+}
+
+.testimonial-caption h2{
+    color: mediumpurple;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.testimonial-caption h4{
+    color: mediumpurple;
+}
+
+.testimonial-caption h4 span{
+    color: mediumpurple;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.testimonial-caption p{
+    color: silver;
+    font-size: 18;
+    line-height: 27px;
+    padding-top: 56px;
+}
+
+/* ========= Features ========= */
+
+/* ====== left ====== */
+.features-inner-wrapper{
+    padding-top: 30px;
+    padding-bottom: 70px;
+    
+}
+
+.left-feature-item{
+    position: relative;
+    padding-right: 90px;
+    margin-bottom: 65px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.left-feature-item-icon{
+    position: absolute;
+    right: 0;
+    top: -8px;
+    font-size: 40px;
+    color: mediumpurple;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.left-feature-item h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
+
+.left-feature-item p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* ======= Center ======= */
+.feature-iphone img{
+    width: 100%;
+}
+
+/* ======= Right ======== */
+.right-feature-item{
+    position: relative;
+    padding-left: 90px;
+    margin-bottom: 65px;
+    text-align: left;
+    margin-top: 35px;
+}
+
+.right-feature-item-icon{
+    position: absolute;
+    left: 0;
+    top: -8px;
+    font-size: 40px;
+    color: mediumpurple;
+    width: 90px;
+    height: 90px;
+    text-align: center;
+}
+
+.right-feature-item h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 21px;
+    color: #333;
+}
+
+.right-feature-item p{
+    color: #333;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+/* ========= Purchase now ========= */
+
+.purchase-now {
+    background-color: #1a1a1a;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.purchase-now p{
+    color: silver;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.btn-purchase-now,
+.btn-purchase-now:active,
+.btn-purchase-now:focus,
+.btn-purchase-now:visited{
+    background-color: mediumpurple;
+    border: 1px solid mediumpurple;
+    color: white;
+    border-radius: 3px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+   
+}
+
+.btn-purchase-now:hover{
+    background-color: rebeccapurple;
+    border-color: rebeccapurple;
+}
+
+/* ========= Counter ========= */
+
+.counter{
+    background-image: url(../images/counter-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-position: 50% 50%;
+}
+
+.counter-overlay{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: rgba(31,31,31, .75);
+}
+
+.counter-item i{
+    color: mediumpurple;
+    font-size: 60px;
+}
+
+.counter-item h2{
+    font-family: "Source Sans Pro", sans-serif;
+    color: silver;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.counter-item p{
+    font-family: "Source Sans Pro", sans-serif;
+    color: silver;
+    font-size: 20px;
+    margin-top: 0px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* ========= Download Now ========= */
+
+.download-now img{
+    width:100%;
+}
+
+.available-on {
+    background-color: #1a1a1a;
+    margin-top: -65px;
+    position:relative;
+}
+
+.available-title {
+    padding-top: 75px;
+}
+
+.available-title h2{
+    color: white;
+    font-size 30px;
+}
+
+.available-title p{
+    color: silver;
+}
+
+.no-padding{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.available-on-item{
+    text-align: center;
+    border-left: 1px solid #1a1a1a;
+    min-height: 230px;
+    padding-bottom: 15px;
+    position: relative;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.available-on-item:hover{
+    background-color: #1a1a1a;
+    color: #1a1a1a;
+    border-left: 1px solid #1a1a1a;
+}
+
+.available-on-item i{
+    color: mediumpurple;
+    text-align: center;
+    opacity: 1;
+    font-size: 40px;
+    padding-top: 90px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.available-on-item:hover i{
+    opacity: 0;
+}
+
+.available-on-inner{
+    position: absolute;
+    bottom: 93px;
+    width: 100%;
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+
+}
+
+.available-on-inner h2{
+    text-align: center;
+    font-weight: 500;
+    font-size: 25px;
+    color: mediumpurple;
+}
+
+.available-on-item:hover div.available-on-inner{
+    opacity: 1;
+}
+
+/* ========= Contact Us ========= */
+
+.contact-us-form .form-control{
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: transparent;
+    border: 1px solid mediumpurple;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+#message{
+    height: 117px;
+    resize: none;
+}
+
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited{
+    background-color: white;
+    border: 1px solid mediumpurple;
+    color: mediumpurple;
+    border-radius 3px;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 18px;
+    outline: 0px !important;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.submit-btn:hover{
+    background-color: mediumpurple;
+    border: 1px solid mediumpurple;
+    color: white;
+}
+
+.social-icons{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+
+.social-icons ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.social-icons ul li{
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.social-icons ul li a{
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid mediumpurple;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: mediumpurple;
+    font-size: 20px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+.social-icons ul li a:hover{
+    background-color: mediumpurple;
+    border: 1px solid mediumpurple;
+    color: white;
+}
+
+/* ========= Footer ========= */
+
+.footer{
+    background-color: #1a1a1a;
+    padding-bottom: 35px;
+    padding-top: 50px;
+    border-top: 3px solid mediumpurple;
+}
+
+#copyright{
+    width: 50%;
+}
+
+#copyright p{
+    color: silver;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+
+#copyright a{
+    text-transform: none;
+}
+
+#copyright a:hover{
+    color: silver;
+}
+
+.scroll-top{
+    text-align: right;
+}
+
+.scroll-top a{
+    font-size: 20px;
+    background-color: 1a1a1a;
+    color: mediumpurple;
+    border: .5px solid mediumpurple;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
